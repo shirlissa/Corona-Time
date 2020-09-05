@@ -1,0 +1,33 @@
+.s_image{
+    margin:0px
+    /*margin-:15px*/
+
+}
+
+body{
+    margin: 0 !important;
+}
+
+.main_tag{
+    margin:0px
+}
+
+.alt_tag{
+    margin:0px
+}
+
+.sv_body{
+    padding: 0px !important;
+}
+
+.sv_q.sv_qstn{
+   padding: 0px !important;
+}
+
+.sv_progress{
+    margin-top: 0px !important;
+}
+
+.sv_nav{
+    padding: 0px !important;
+}
