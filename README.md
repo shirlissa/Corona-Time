@@ -1,8 +1,8 @@
 # Corona-Time
 A web puzzle developed as part of a final project in intelligent interactive systems course.
 
-## Please Watch the CoronaTimeIntro 
-a recorded demo
+### Please Watch the CoronaTimeIntro.mp4
+A recorded demo
 
 ### Start Project
     python server.py
