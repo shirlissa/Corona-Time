@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <style>
+    a {
+      color: #AACCFF;
+    }
+    </style>
+    <head>
+        <title>Corona Time</title>
+        <link rel="shortcut icon" href="./static/images/favicon.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./static/js/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+        <script src="https://surveyjs.azureedge.net/1.7.9/survey.jquery.js"></script>
+        <link href="./static/js/survey.css" type="text/css" rel="stylesheet"/>
+        <link href="./static/js/style.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./static/js/galleria/themes/azur/galleria.azur.min.css" id="galleria-theme-azur">
+        <link rel="stylesheet" href="./static/js/galleria/themes/azur/galleria.azur.js">
+        <script src="./static/js/galleria/galleria.min.js"></script>
+        <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+
+    </head>
+    <body>
+        <div id="surveyElement"></div>
+        <div id="surveyResult"></div>
+        <!--<footer>Made with love by Shir</footer>-->
+        <script type="text/javascript" src="./static/js/index.js"></script>
+        <script type="text/javascript" src="./static/js/base_questions.js"></script>
+        <script type="text/javascript" src="./static/js/exportCSV.js"></script>
+        <script>
+        document.onkeyup = (event)=> {
+            event.preventDefault();
+            var gallery = Galleria.get(0);
+                    switch(event.keyCode){
+                    case 37: //press left arrow
+                        gallery.prev();
+                        break;
+                    case 39: //press right arrow
+                        gallery.next();
+                        break;
+                    }
+            }
+        </script>
+        <style>
+
+.main_tag{
+    color:green;
+    font-weight:bold
+}
+.alt_tag{
+    color:orange
+}
+        </style>
+    </body>
+</html>
