@@ -8,7 +8,7 @@ A recorded demo
     python server.py
     GUI will be running on port 80
 
-### How to add images to the gamee
+### How to add images to the game
     1. Upload predictions.csv file to /static/ folder
     2. Make sure the right images appear in the /images/ folder according to image_url in predictions.csv
     3. Restart the service (python server.py)
